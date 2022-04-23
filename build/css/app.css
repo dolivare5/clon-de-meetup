@@ -566,4 +566,71 @@ p {
     background-color: #902853;
 }
 
+.eventos {
+    padding: 5rem 0;
+}
+
+.eventos__imagen {
+    width: 100%;
+}
+
+.eventos__heading {
+    text-align: center;
+    margin: 0;
+    color: #484349;
+}
+
+.eventos__grid {
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+    .eventos__grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.evento {
+    border: 1px solid #F2F2F2;
+}
+
+.evento__contenido {
+    padding: 2rem;
+}
+
+.evento__fecha {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.evento__nombre {
+    color: #484349;
+    margin: 1rem 0;
+}
+
+.evento__autor {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2em;
+}
+
+.evento__autor-img {
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.evento__organizado-texto, .evento__organizado__nombre {
+    margin: 0.5rem 0;
+}
+
+.evento__organizado-texto {
+    font-weight: 700;
+}
+
 /*# sourceMappingURL=app.css.map */

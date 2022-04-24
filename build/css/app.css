@@ -673,4 +673,40 @@ p {
     text-align: center;
 }
 
+.grupos {
+    background-image: linear-gradient(to bottom, #B8336A 0%, #B8336A 50%, #068D9D 50%, #068D9D 100%);
+    color: #FFFFFF;
+    padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .grupos {
+        background-image: linear-gradient(to right, #B8336A 0%, #B8336A 50%, #068D9D 50%, #068D9D 100%);
+    }
+}
+
+.grupos__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+    .grupos__grid {
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.grupos__heading {
+    font-size: 3rem;
+}
+
+.grupos__texto {
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    line-height: 2;
+}
+
 /*# sourceMappingURL=app.css.map */
